@@ -1,0 +1,72 @@
+
+.FooterWrapper
+{
+     background: rgb(240,248,255);
+background: linear-gradient(180deg, rgba(240,248,255,1) 17%, rgba(108,180,238,1) 67%, rgba(108,180,238,1) 100%); 
+}
+
+
+@font-face {
+     font-family: "amoera";   
+     src: url(src/font/amoera.otf);
+   }
+
+   #footerBreakepoint 
+   {
+        display: flex;
+   }
+   
+   .FooterUrl img 
+   {
+     width: 10%;
+     height: 10%;
+   }
+
+   .FooterUrl
+   {
+     display: flex;
+     justify-content: space-evenly;
+     padding: 50px 0 50px 0;
+   }
+
+.FooterUrl a
+{
+     text-decoration: none;
+     font-weight: 700;
+     color: black;
+     font-family: "amoera";  
+}
+
+.FooterUrl ul
+{
+     list-style: none;
+}
+
+.FooterUrl li
+{
+     padding: 10px;
+}
+
+@media screen and (max-width: 992px)
+{
+     .FooterUrl
+{
+     display: block;
+}
+
+.FooterUrl img 
+{
+  width: 70%;
+  height: 70%;
+}
+
+#footerBreakepoint 
+{
+     display: flex;
+}
+
+.FooterUrl a
+{
+     font-weight: 900;
+}
+}

@@ -1,0 +1,59 @@
+  
+
+
+  .Newsletter
+  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px;
+  }
+
+  @font-face {
+    font-family: "Mugesta";   
+    src: url(src/font/Mugesta-OV20A.otf);
+  }
+
+
+  
+  @font-face {
+    font-family: "Adventure";   
+    src: url(src/font/Adventure.otf);
+  }
+
+
+  .Newsletter h5{
+    font-size: 50px;
+    color: #0e0e66;
+    text-align: center;
+    font-family: "Adventure";
+  }
+
+
+  .Newsletter p
+  {
+    font-size: 15px;
+    color: #0e0e66;
+    font-family: "Mugesta";
+    font-weight: 700;
+  }
+
+
+  @media screen and (max-width: 992px) 
+   {
+
+    .Newsletter h5{
+        font-size: 30px;
+      }
+    
+    
+      .Newsletter p
+      {
+        font-size: 10px;
+        color: #0e0e66;
+        font-family: "Mugesta";
+        font-weight: 700;
+      }
+  }

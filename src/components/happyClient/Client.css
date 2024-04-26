@@ -1,0 +1,70 @@
+
+
+@font-face {
+    font-family: "Quick";   
+    src: url(src/font/QuickyNick.otf);
+  }
+
+
+
+.client h5
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 60px 0 0 0;
+    font-family: "Quick";
+    font-size: 50px;
+    color: #0e0e66;
+}
+
+.imgSection 
+{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px 0 0 0;
+}
+
+.imgSection  img
+{
+    border-radius: 20px;
+}
+
+.imgSection span
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.imgSection b
+{
+   padding: 20px 0 0 0;
+   color: #0e0e66;
+}
+.imgSection  #FeedsecondD {
+    rotate: -12deg;
+}
+
+@media screen and (max-width: 992px)
+{
+    .imgSection 
+    {
+        display: block;
+        margin: 40px 0 0 50px;
+    }
+
+    .imgSection b
+{
+   padding: 50px 0 70px 0;
+   font-size: 30px;
+}
+
+.imgSection  img
+{
+    width: 80%;
+}
+}

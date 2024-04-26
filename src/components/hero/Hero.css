@@ -1,0 +1,82 @@
+.Hero_wrapper
+ {
+	-webkit-animation: Hero_wrapper 4s linear infinite alternate both;
+	        animation: Hero_wrapper 4s linear infinite alternate both;
+          margin: 2em 2em 0 2em;
+          border-radius: 50px;
+}
+
+ @-webkit-keyframes Hero_wrapper {
+    0% {
+      background: #6CB4EE;
+    }
+    50% {
+      background: #E1EBEE;
+    }
+    100% {
+      background: #89CFF0;
+    }
+  }
+  @keyframes Hero_wrapper {
+    0% {
+      background: #6CB4EE;
+    }
+    50% {
+      background: #E1EBEE;
+    }
+    100% {
+      background: #E0FFFF;
+    }
+  }
+  
+
+  @font-face {
+    font-family: "Hero";   
+    src: url(src/font/Protest.otf);
+  }
+
+  .container
+{
+  display: inline-block;
+}
+
+#shop
+{
+  text-align: center;
+  font-family: "Hero";
+  font-weight: 900;
+  color: #0e0e66;
+  margin: 2em 0 40px 180px;
+  font-size: 50px;
+}
+
+
+#Browse
+  {
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 0 0 150px 100px;
+    font-weight: 700;
+    color: #0e0e66;
+    font-size: 15px;
+  }
+
+
+  @media screen and (max-width: 992px)
+  {
+    #shop
+    {
+      font-family: "Hero";
+      font-weight: 900;
+      color: #0e0e66;
+      margin: 2em 0 40px 0;
+      font-size: 25px;
+    }
+
+#Browse
+  {
+     padding: 10px 20px 120px 20px;
+    font-size: 20px;
+    text-align: start;
+  }
+  }

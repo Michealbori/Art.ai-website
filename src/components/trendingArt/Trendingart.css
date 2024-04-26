@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: "Hero";   
+    src: url(src/font/Mugesta-OV20A.otf);
+  }
+
+
+.TrendingArt h5
+{
+    
+    font-family: "Hero";
+    font-weight: 900;
+    color: #0e0e66;
+    padding: 50px 0 0 85px;
+}
+
+
+@media screen and (max-width: 992px)
+{
+  .TrendingArt h5
+  {
+    font-size: 20px;
+    padding: 50px 0 0 20px;
+  }
+}

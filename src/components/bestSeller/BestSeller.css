@@ -1,0 +1,16 @@
+
+
+
+@font-face {
+    font-family: "Hero";   
+    src: url(src/font/Mugesta-OV20A.otf);
+  }
+
+.BestsellerSection h5
+{
+    font-family: "Hero"; 
+    padding: 30px 0 0 50px;
+    color: #0e0e66;
+    font-weight: 900;
+}
+
